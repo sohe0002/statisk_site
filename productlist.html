@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Produktliste</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="kategori.html">Kategorier</a></li>
+                <li><a href="productlist.html">Produktliste</a></li>
+                <li><a href="product.html">Produkt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="overskrift">PRODUKTLISTE</h1>
+    </main>
+
+    <div class="grid_1_1">
+        <template id="smallProductTemplate">
+            <article class="smallProduct">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
+                <h3>Blue T20 Indian Cricket Jersey</h3>
+                <p class="subtitle"> Tshirts</p>
+                <p class="brand"> Nike</p>
+                <p class="price"><span>Prev.</span> 1595kr</p>
+                <div class="discounted">
+                    <p>Now DKK 1560</p>
+                    <p>-34%</p>
+                </div>
+                <a class="read-more" href="product.html">Read more</a>
+            </article>
+        </template>
+
+    </div>
+    <script src="productlist.js"></script>
+
+</body>
+
+
+
+</html>
